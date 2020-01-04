@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM arm32v7/alpine:3.8
 
 RUN set -x \
  && apk add --no-cache ca-certificates curl ffmpeg python gnupg \
